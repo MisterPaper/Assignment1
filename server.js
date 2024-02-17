@@ -13,7 +13,7 @@ const app = express()
 const MoviesDB = require("./modules/moviesDB.js");
 const db = new MoviesDB();
 
-const HTTP_PORT = process.env.PORT || 8080
+const HTTP_PORT = process.env.PORT || 443
 
 
 
